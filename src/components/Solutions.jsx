@@ -1,7 +1,7 @@
 function Solutions() {
   return (
     <section className="py-5">
-      <div className="flex flex-col md:flex-row lg:max-w-5xl m-auto max-w-7xl md:max-w-3xl text-center">
+      <div className="flex px-5 flex-col md:flex-row lg:max-w-5xl m-auto max-w-7xl md:max-w-3xl text-center">
         <article className="flex flex-col items-center justify-end">
           <span>
             <img src="plane-ic.svg" />

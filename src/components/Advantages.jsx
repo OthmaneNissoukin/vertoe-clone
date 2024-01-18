@@ -1,8 +1,8 @@
 function Advantages() {
   return (
     <section className="py-5">
-      <div className="max-w-7xl md:max-w-3xl lg:max-w-5xl m-auto">
-        <h1 className="text-2xl mb-2">Safety & Insurance</h1>
+      <div className="max-w-7xl px-5 md:max-w-3xl lg:max-w-5xl m-auto">
+        <h1 className="text-2xl mb-5 font-semibold text-center md:text-start">Safety & Insurance</h1>
         <div className="flex flex-col md:flex-row justify-between text-center space-y-5">
           <article>
             <span className="inline-block">

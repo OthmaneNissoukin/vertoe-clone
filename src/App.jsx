@@ -9,13 +9,13 @@ import RequestDelivery from "./pages/RequestDelivery";
 function App() {
   return (
     <Routes>
-      <Route path="/sign-in" element={<Login />} />
       <Route element={<Layout />}>
         <Route index={true} path="/" element={<Homepage />} />
         <Route path="/locations" element={<Locations />} />
         <Route path="/locations/:id" element={<Address />} />
         <Route path="/locations/:id/request-delivery" element={<RequestDelivery />} />
       </Route>
+      <Route path="/sign-in" element={<Login />} />
     </Routes>
   );
 }

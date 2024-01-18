@@ -2,10 +2,16 @@ import { useEffect, useState } from "react";
 
 import { getPosition } from "../services/geoLocation";
 
+import useGeoLocation from "../hooks/useGeoLocation";
+
 function RequestDelivery() {
   const [position, setPosition] = useState(null);
-  const [address, setAddress] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
+
+  const { address, setAddress, isLoading } = useGeoLocation(position);
+
+  function requestPosition() {
+    getPosition(setPosition);
+  }
 
   useEffect(() => {
     async function getAddress() {
@@ -29,7 +35,7 @@ function RequestDelivery() {
 
   return (
     <section className="py-5">
-      <div className="max-w-7xl lg:max-w-5xl md:max-w-3xl m-auto space-y-5">
+      <div className="max-w-7xl lg:max-w-5xl px-5 md:max-w-3xl m-auto space-y-5">
         <h1 className="text-center font-semibold text-2xl">Request Delivery From Jamaa L'Fna Square Luggage</h1>
 
         <form className="max-w-md mx-auto">
@@ -105,6 +111,7 @@ function RequestDelivery() {
           <div className="relative z-0 w-full mb-5 group">
             <input
               value={address}
+              onChange={(e) => setAddress(e.target.value)}
               name="floating_address"
               id="floating_address"
               className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
@@ -117,14 +124,17 @@ function RequestDelivery() {
             >
               Current Address
             </label>
-            <button
-              onClick={requestPosition}
-              disabled={isLoading}
-              type="button"
-              className="absolute top-0 right-[-10px] text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 disabled:bg-gray-500"
-            >
-              Get Position
-            </button>
+
+            {!address && (
+              <button
+                onClick={requestPosition}
+                disabled={isLoading}
+                type="button"
+                className="absolute top-0 right-[-10px] text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 disabled:bg-gray-500"
+              >
+                Get Position
+              </button>
+            )}
           </div>
 
           <div>

@@ -1,7 +1,7 @@
 function Features() {
   return (
     <section className="py-5 ">
-      <div className="flex m-auto justify-between items-center max-w-7xl md:max-w-3xl lg:max-w-5xl">
+      <div className="flex m-auto px-5 justify-between items-center max-w-7xl md:max-w-3xl lg:max-w-5xl">
         <div>
           <ul className="space-y-5 font-semibold">
             <li className="flex items-center gap-2">

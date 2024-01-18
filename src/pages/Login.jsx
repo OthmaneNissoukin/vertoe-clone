@@ -5,13 +5,13 @@ function Component() {
     <>
       <Navbar />
       <section className="h-dvh flex justify-center pt-12">
-        <form className="flex max-w-md flex-col gap-4 shrink-0 grow">
+        <form className="flex max-w-md flex-col gap-4 shrink-0 grow px-5">
           <h1 className="text-3xl text-center">Sign In</h1>
           <div>
             <div className="mb-2 block">
               <Label htmlFor="email1" value="Your email" />
             </div>
-            <TextInput id="email1" type="email" placeholder="name@flowbite.com" required />
+            <TextInput id="email1" type="email" placeholder="username or e-mail address" required />
           </div>
           <div>
             <div className="mb-2 block">
