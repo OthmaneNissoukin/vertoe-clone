@@ -1,58 +1,47 @@
-"use client";
-
-import { Footer } from "flowbite-react";
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function Component() {
   return (
-    <Footer container>
-      <div className="m-auto w-full lg:max-w-5xl">
-        <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-          <div>
-            <Footer.Brand
-              href="https://flowbite.com"
-              src="https://flowbite.com/docs/images/logo.svg"
-              alt="Flowbite Logo"
-              name="Flowbite"
-            />
-          </div>
-          <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
-            <div>
-              <Footer.Title title="about" />
-              <Footer.LinkGroup col>
-                <Footer.Link href="#">Flowbite</Footer.Link>
-                <Footer.Link href="#">Tailwind CSS</Footer.Link>
-              </Footer.LinkGroup>
-            </div>
-            <div>
-              <Footer.Title title="Follow us" />
-              <Footer.LinkGroup col>
-                <Footer.Link href="#">Github</Footer.Link>
-                <Footer.Link href="#">Discord</Footer.Link>
-              </Footer.LinkGroup>
-            </div>
-            <div>
-              <Footer.Title title="Legal" />
-              <Footer.LinkGroup col>
-                <Footer.Link href="#">Privacy Policy</Footer.Link>
-                <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
-              </Footer.LinkGroup>
-            </div>
-          </div>
+    <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+      <div class="max-w-7xl lg:max-w-5xl md:max-w-3xl mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <Link to={"/"} class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+            <img src="assets/logo.png" class="h-16" alt="Flowbite Logo" />
+            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">HT-3NDI</span>
+          </Link>
+          <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">
+                Privacy Policy
+              </a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">
+                Licensing
+              </a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline">
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
-        <Footer.Divider />
-        <div className="w-full sm:flex sm:items-center sm:justify-between">
-          <Footer.Copyright href="#" by="Flowbite™" year={2022} />
-          <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-            <Footer.Icon href="#" icon={BsFacebook} />
-            <Footer.Icon href="#" icon={BsInstagram} />
-            <Footer.Icon href="#" icon={BsTwitter} />
-            <Footer.Icon href="#" icon={BsGithub} />
-            <Footer.Icon href="#" icon={BsDribbble} />
-          </div>
-        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          © 2024
+          <Link to="/" class="hover:underline">
+            HT-3NDI;
+          </Link>
+          . All Rights Reserved.
+        </span>
       </div>
-    </Footer>
+    </footer>
   );
 }
 

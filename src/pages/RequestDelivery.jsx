@@ -3,9 +3,11 @@ import { useEffect, useState } from "react";
 import { getPosition } from "../services/geoLocation";
 
 import useGeoLocation from "../hooks/useGeoLocation";
+import { useParams } from "react-router-dom";
 
 function RequestDelivery() {
   const [position, setPosition] = useState(null);
+  const { id } = useParams();
 
   const { address, setAddress, isLoading } = useGeoLocation(position);
 
@@ -36,7 +38,9 @@ function RequestDelivery() {
   return (
     <section className="py-5">
       <div className="max-w-7xl lg:max-w-5xl px-5 md:max-w-3xl m-auto space-y-5">
-        <h1 className="text-center font-semibold text-2xl">Request Delivery From Jamaa L'Fna Square Luggage</h1>
+        <h1 className="text-center font-semibold text-2xl">
+          Request Delivery From {id.replaceAll("-", " ").toUpperCase()}
+        </h1>
 
         <form className="max-w-md mx-auto">
           <div className="grid md:grid-cols-2 md:gap-6">
