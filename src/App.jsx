@@ -14,6 +14,7 @@ function App() {
         <Route path="/locations" element={<Locations />} />
         <Route path="/locations/:id" element={<Address />} />
         <Route path="/locations/:id/request-delivery" element={<RequestDelivery />} />
+        <Route path="*" element={<h1>Page Not Found</h1>} />
       </Route>
       <Route path="/sign-in" element={<Login />} />
     </Routes>
