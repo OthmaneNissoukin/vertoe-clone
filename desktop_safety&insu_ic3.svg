@@ -3,12 +3,12 @@
         <g>
             <g>
                 <path fill="#1E85E2" d="M95.28 57.793l-2.267-.001v-1.134h2.265l.001 1.135zm4.533 1.13c0-.624-.506-1.13-1.131-1.13h-2.27l.001-1.132c0-.625-.508-1.131-1.134-1.131h-2.266c-.626 0-1.134.506-1.134 1.13v1.133h-2.268c-.625 0-1.133.506-1.133 1.13v6.335c0 .624.508 1.132 1.134 1.132l9.07-.005c.623 0 1.131-.504 1.132-1.127v-6.334z" transform="translate(-1006 -1201) translate(1007.849 1202.955)"/>
-                <path stroke="#1E87E4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M105.095 73.816c0 1.1-.894 1.994-1.997 1.994-1.103 0-1.998-.894-1.998-1.994 0-1.102.895-1.994 1.998-1.994s1.997.892 1.997 1.994z" transform="translate(-1006 -1201) translate(1007.849 1202.955)"/>
-                <path stroke="#1E87E4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M.845 99.725L187.591 99.725M75.735 99.724L112.097 99.724 112.097 46.789 75.735 46.789z" transform="translate(-1006 -1201) translate(1007.849 1202.955)"/>
-                <path stroke="#1E87E4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M32.846 99.724L155.254 99.724 155.254 31.995 32.846 31.995z" transform="translate(-1006 -1201) translate(1007.849 1202.955)"/>
-                <path stroke="#1E87E4" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M124.858 68.355L137.7 68.355 137.7 55.53 124.858 55.53zM50.308 68.355L63.152 68.355 63.152 55.53 50.308 55.53z" transform="translate(-1006 -1201) translate(1007.849 1202.955)"/>
-                <path stroke="#1E87E4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M163.136 31.995H25.647c-2.038 0-3.69-1.651-3.69-3.686V15.366h144.87V28.31c0 2.035-1.653 3.686-3.691 3.686z" transform="translate(-1006 -1201) translate(1007.849 1202.955)"/>
-                <path stroke="#1E87E4" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M155.254 0.843L32.846 0.843 21.956 15.367 166.827 15.367z" transform="translate(-1006 -1201) translate(1007.849 1202.955)"/>
+                <path stroke="#1E87E4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M105.095 73.816c0 1.1-.894 1.994-1.997 1.994-1.103 0-1.998-.894-1.998-1.994 0-1.102.895-1.994 1.998-1.994s1.997.892 1.997 1.994z" transform="translate(-1006 -1201) translate(1007.849 1202.955)"/>
+                <path stroke="#1E87E4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M.845 99.725L187.591 99.725M75.735 99.724L112.097 99.724 112.097 46.789 75.735 46.789z" transform="translate(-1006 -1201) translate(1007.849 1202.955)"/>
+                <path stroke="#1E87E4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M32.846 99.724L155.254 99.724 155.254 31.995 32.846 31.995z" transform="translate(-1006 -1201) translate(1007.849 1202.955)"/>
+                <path stroke="#1E87E4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M124.858 68.355L137.7 68.355 137.7 55.53 124.858 55.53zM50.308 68.355L63.152 68.355 63.152 55.53 50.308 55.53z" transform="translate(-1006 -1201) translate(1007.849 1202.955)"/>
+                <path stroke="#1E87E4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M163.136 31.995H25.647c-2.038 0-3.69-1.651-3.69-3.686V15.366h144.87V28.31c0 2.035-1.653 3.686-3.691 3.686z" transform="translate(-1006 -1201) translate(1007.849 1202.955)"/>
+                <path stroke="#1E87E4" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M155.254 0.843L32.846 0.843 21.956 15.367 166.827 15.367z" transform="translate(-1006 -1201) translate(1007.849 1202.955)"/>
             </g>
         </g>
     </g>
