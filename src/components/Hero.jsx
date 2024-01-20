@@ -47,13 +47,13 @@ function Hero() {
       <div className="text-center space-y-8 px-5">
         <h1 className="text-2xl font-semibold text-stone-950">Worlds Leading Short-term Storage Provider</h1>
         <form onSubmit={(e) => e.preventDefault()}>
-          <div class="mb-5 flex items-cente justify-center relative">
+          <div className="mb-5 flex items-cente justify-center relative">
             <input
               value={address}
               onChange={(e) => setAddress(e.target.value)}
               type="text"
               id="base-input"
-              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-72 md:w-full p-2.5 rounded-none disabled:bg-slate-300 "
+              className="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-72 md:w-full p-2.5 rounded-none disabled:bg-slate-300 "
               placeholder="Get your location"
               disabled={isLoading}
             />
@@ -66,7 +66,7 @@ function Hero() {
             <button
               onClick={requestPosition}
               type="button"
-              class="px-5 py-2.5 text-sm font-medium text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-none text-center disabled:bg-blue-300"
+              className="px-5 py-2.5 text-sm font-medium text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-none text-center disabled:bg-blue-300"
               disabled={isLoading}
             >
               🚀

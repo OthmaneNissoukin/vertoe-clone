@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
     <g fill="none" fill-rule="evenodd">
         <rect width="51" height="51" x=".5" y=".5" fill="#FFF" stroke="#D7D7D7" rx="8"/>
-        <g stroke="#1E88E5" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+        <g stroke="#1E88E5" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5">
             <path d="M7.481 27.952c2.035.422 9.945 1.326 11.63 1.458 2.258.175 5.983.284 5.983.284 1.358 0 2.564-.76 2.757-2.166.16-1.163-.05-1.976-1.27-2.182 1.327 0 2.403-1.076 2.403-2.403s-.536-2.402-1.863-2.402c1.327 0 2.34-1.076 2.34-2.403s-.956-2.408-2.283-2.408c1.327 0 1.84-1.07 1.84-2.397 0-1.327-1.076-2.403-2.403-2.403h-9.42s.271-2.569 1.457-5.358C19.838 2.782 17.54.44 16.782.238c-.758-.201-1.245.756-1.245.756s-2.668 5.852-4.9 10.19c-.85 1.654-3.156 2.071-3.156 2.071v14.697z" transform="translate(11 8.5)"/>
             <path d="M0.842 28L7.481 28 7.481 13.199 0.842 13.199z" transform="translate(11 8.5)"/>
         </g>
